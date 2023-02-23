@@ -1,0 +1,23 @@
+.mainInputsArea {
+    margin: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.typography {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.input {
+    width: 120px;
+}

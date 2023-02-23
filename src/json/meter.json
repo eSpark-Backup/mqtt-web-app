@@ -1,0 +1,31 @@
+{
+  "meter_data": [{
+      "meter_id": 1,
+      "kwh_reading": 125.36,
+      "voltage": 220,
+      "current": 6.36,
+      "frequency": 50
+    },
+    {
+      "meter_id": 2,
+      "kwh_reading": 125.36,
+      "voltage": 220,
+      "current": 6.36,
+      "frequency": 50
+    },
+    {
+      "meter_id": 3,
+      "kwh_reading": 125.36,
+      "voltage": 220,
+      "current": 6.36,
+      "frequency": 50
+    },
+    {
+      "meter_id": 4,
+      "kwh_reading": 125.36,
+      "voltage": 220,
+      "current": 6.36,
+      "frequency": 50
+    }
+  ]
+}
