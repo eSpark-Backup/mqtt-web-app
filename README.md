@@ -79,8 +79,8 @@ Subscribtion Sucessfully created.
 and send sample payload for initial Valuess, shared Below
 ![alt text](./src/assets/screenshots/updating-data-payload.png?raw=true)
 
-## Sample Script (JOSN)
-`
+## Sample Script (JSON)
+
 {
 	"meter_data": [{
 			"meter_id": 1,
@@ -111,7 +111,7 @@ and send sample payload for initial Valuess, shared Below
 			"frequency": 50
 		}
 	]
-}`
+}
  
 ### verify Payload & Set Trigger & Subscribtion
 
