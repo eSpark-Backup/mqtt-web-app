@@ -79,8 +79,9 @@ Subscribtion Sucessfully created.
 and send sample payload for initial Valuess, shared Below
 ![alt text](./src/assets/screenshots/updating-data-payload.png?raw=true)
 
-## Sample Script (JSON)
+##  Sample Script (JSON): 
 
+```
 {
 	"meter_data": [{
 			"meter_id": 1,
@@ -112,7 +113,9 @@ and send sample payload for initial Valuess, shared Below
 		}
 	]
 }
- 
+```
+
+
 ### verify Payload & Set Trigger & Subscribtion
 
 - go to Application Dashboard to see lates changes.
