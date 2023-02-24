@@ -19,8 +19,7 @@
     "react-dom": "^16.13.1",
     "react-hot-toast": "^2.4.0",
     "react-router-dom": "^6.8.1",
-    "react-scripts": "3.4.3",
-    "serve": "^14.2.0"
+    "react-scripts": "3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,11 +30,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-
-  "engines": {
-    "node": "16.14.0"
-  },
-
   "browserslist": {
     "production": [
       ">0.2%",
