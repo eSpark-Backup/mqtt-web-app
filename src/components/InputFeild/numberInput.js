@@ -23,7 +23,9 @@ const NumberInput = (props) => {
     data[item?.inputFieldName] =
       item?.inputFieldName === SMS_NUMBER_LABEL
         ? e.target.value
-        : Number(e.target.value);
+        : Number(e.target.value) !== 0
+        ? Number(e.target.value)
+        : null;
     setObj({ ...data });
   };
 

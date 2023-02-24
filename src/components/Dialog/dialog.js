@@ -23,7 +23,7 @@ export default function ResponsiveDialog({
   const fullScreen = useMediaQuery(theme.breakpoints.down("md"));
 
   const [obj, setObj] = React.useState(createObject([data]));
-  
+
   const ButtonDisable =
     data.Subscription && data["Trigger Point"] && data["SMS Number"]
       ? false

@@ -4,6 +4,7 @@ import {
 } from "../constants/meterConstants";
 
 import axios from "axios";
+import { SUBSCRIPTION_LABEL } from "./../constants/meterConstants";
 
 export const getKeys = (data) => {
   let keys = Object.keys(data[0]);
@@ -61,6 +62,12 @@ export const inputProps = (item) => {
     return {
       min: "1",
       max: "100",
+    };
+  }
+  if (item.inputFieldName === SUBSCRIPTION_LABEL) {
+    return {
+      min: "1",
+      max: "100000",
     };
   }
 

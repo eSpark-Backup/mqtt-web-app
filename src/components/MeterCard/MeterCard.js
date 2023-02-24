@@ -59,6 +59,9 @@ const MeterCard = ({ meterData }) => {
 
   const handleChangeData = () => {
     setOpen(false);
+    makeArrObj.map((item) => {
+      sendSmsAndCheckValue(item);
+    });
   };
 
   const makeNewArray = (meterData) => {
@@ -80,15 +83,6 @@ const MeterCard = ({ meterData }) => {
   useEffect(() => {
     makeNewArray(meterData);
   }, [meterData]);
-
-  useEffect(() => {
-    makeArrObj.map((item) => {
-      sendSmsAndCheckValue(item);
-      setInterval(() => {
-        sendSmsAndCheckValue(item);
-      }, 30000);
-    });
-  }, [makeArrObj, open]);
 
   return (
     <Box style={{ flexGrow: 1 }}>
