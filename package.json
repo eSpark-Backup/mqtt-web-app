@@ -16,7 +16,7 @@
     "axios": "^1.16.0",
     "mqtt": "^5.15.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react-dom": "^19.3.0",
     "react-hot-toast": "^2.4.0",
     "react-router-dom": "^7.17.0",
     "react-scripts": "3.4.3"
